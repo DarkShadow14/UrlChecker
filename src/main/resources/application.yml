@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: URL Checker
+
+  jackson:
+    serialization:
+      indent_output: true
+      write_dates_as_timestamps: false
+      write_durations_as_timestamps: false
+
+server:
+  port: 9090
+  tomcat:
+    max-threads: 3
